@@ -1,4 +1,4 @@
-//重写alert方法，alert()方法重写，不能传多余参数
+// 重写alert方法，alert()方法重写，不能传多余参数
 function alertFun() {
 	window.alert = function(name) {
 		let iframe = document.createElement("IFRAME");
